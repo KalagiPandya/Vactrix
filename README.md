@@ -4,6 +4,8 @@
 
 ### Vacancy & Talent Intelligence Platform
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-vactrix.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vactrix.vercel.app)
+[![API Live](https://img.shields.io/badge/Render_API-vactrix--1.onrender.com-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://vactrix-1.onrender.com/health)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Express](https://img.shields.io/badge/Express-5.x-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
@@ -11,13 +13,14 @@
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-4.7-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-
 **Production-grade HR Analytics & Vacancy Intelligence Platform**
 
+🔗 **Live Application**: [https://vactrix.vercel.app](https://vactrix.vercel.app)  
+⚡ **Live Backend API**: [https://vactrix-1.onrender.com](https://vactrix-1.onrender.com/health)
 
 Graph-based vacancy chain analysis · Real-time notifications · AI-assisted candidate scoring · Enterprise analytics
 
-[Features](#-features) · [Quick Start](#-quick-start) · [Deploy Guide](#-deployment-guide) · [API Docs](#-api-reference) · [Interview Tips](#-interview-talking-points)
+[🚀 Live Demo](https://vactrix.vercel.app) · [Features](#-features) · [Quick Start](#-quick-start) · [Deploy Guide](#-deployment-guide) · [API Docs](#-api-reference) · [Interview Tips](#-interview-talking-points)
 
 </div>
 
@@ -412,7 +415,7 @@ git push -u origin main
 5. Click **Deploy** → wait ~3 minutes
 6. Test your API:
    ```
-   https://vactrix-api.onrender.com/health
+   https://vactrix-1.onrender.com/health
    ```
    Should return: `{"status":"ok","message":"Vactrix API running"}`
 
@@ -432,8 +435,8 @@ git push -u origin main
    ```
 3. **Environment Variables**:
    ```
-   REACT_APP_API_URL    = https://vactrix-api.onrender.com/api
-   REACT_APP_SOCKET_URL = https://vactrix-api.onrender.com
+   REACT_APP_API_URL    = https://vactrix-1.onrender.com/api
+   REACT_APP_SOCKET_URL = https://vactrix-1.onrender.com
    ```
 4. Click **Deploy** → ~2 minutes
 5. Your live URL: `https://vactrix.vercel.app`
@@ -451,11 +454,11 @@ Quick way — before pushing, run in `/client` directory:
 ```bash
 # Windows PowerShell
 Get-ChildItem -Recurse -Filter *.jsx | ForEach-Object {
-  (Get-Content $_.FullName) -replace 'http://localhost:5000', 'https://vactrix-api.onrender.com' | Set-Content $_.FullName
+  (Get-Content $_.FullName) -replace 'http://localhost:5000', 'https://vactrix-1.onrender.com' | Set-Content $_.FullName
 }
 
 # Mac/Linux
-find src -name "*.jsx" -o -name "*.js" | xargs sed -i 's|http://localhost:5000|https://vactrix-api.onrender.com|g'
+find src -name "*.jsx" -o -name "*.js" | xargs sed -i 's|http://localhost:5000|https://vactrix-1.onrender.com|g'
 ```
 
 ---
