@@ -12,7 +12,7 @@
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-4.7-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-**Production-grade HR Analytics & Vacancy Intelligence Platform**
+**Full-Stack HR Analytics & Vacancy Intelligence Platform**
 
 🔗 **Live Deployment**: [https://client-jet-mu.vercel.app](https://client-jet-mu.vercel.app)
 
