@@ -4,7 +4,7 @@
 
 ### Vacancy & Talent Intelligence Platform
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-vactrix.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vactrix.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-client--jet--mu.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://client-jet-mu.vercel.app)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Express](https://img.shields.io/badge/Express-5.x-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
@@ -14,11 +14,11 @@
 
 **Production-grade HR Analytics & Vacancy Intelligence Platform**
 
-🔗 **Live Demo**: [https://vactrix.vercel.app](https://vactrix.vercel.app)
+🔗 **Live Deployment**: [https://client-jet-mu.vercel.app](https://client-jet-mu.vercel.app)
 
 Graph-based vacancy chain analysis · Real-time notifications · AI-assisted candidate scoring · Enterprise analytics
 
-[🚀 Live Demo](https://vactrix.vercel.app) · [Features](#-features) · [Quick Start](#-quick-start) · [Deploy Guide](#-deployment-guide) · [API Docs](#-api-reference) · [Interview Tips](#-interview-talking-points)
+[🚀 Live Demo](https://client-jet-mu.vercel.app) · [Features](#-features) · [Quick Start](#-quick-start) · [Deploy Guide](#-deployment-guide) · [API Docs](#-api-reference) · [Interview Tips](#-interview-talking-points)
 
 </div>
 
@@ -437,8 +437,8 @@ git push -u origin main
    REACT_APP_SOCKET_URL = https://<your-render-app>.onrender.com
    ```
 4. Click **Deploy** → ~2 minutes
-5. Your live URL: `https://vactrix.vercel.app`
-6. Go back to Render → Environment tab → set `CLIENT_URL` to this exact Vercel URL → save (Render redeploys so CORS allows your live frontend)
+5. Your live URL: `https://client-jet-mu.vercel.app`
+6. Go back to Render → Environment tab → set `CLIENT_URL` to this exact Vercel URL (`https://client-jet-mu.vercel.app`) → save (Render redeploys so CORS allows your live frontend)
 
 > A `client/vercel.json` file is already included in this repo — it tells Vercel to route all paths to `index.html` so React Router works correctly on page refresh/direct links.
 

@@ -29,7 +29,7 @@ exports.init = (httpServer) => {
   const isOriginAllowed = (origin) => {
     if (!origin) return true;
     if (origin.startsWith('http://localhost') || origin.startsWith('http://127.0.0.1')) return true;
-    if (origin.endsWith('.vercel.app') || origin === 'https://vactrix.vercel.app') return true;
+    if (origin.endsWith('.vercel.app') || origin === 'https://client-jet-mu.vercel.app' || origin === 'https://vactrix.vercel.app') return true;
     if (process.env.CLIENT_URL && origin === process.env.CLIENT_URL) return true;
     return false;
   };
